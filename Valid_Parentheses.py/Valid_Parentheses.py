@@ -25,6 +25,7 @@ for i in s:
     #we add to stack if i is not in keys of parenthesis as well
     else:
         stack.append(i)
+        
 #finally we check if the stack is empty or not 
 if len(stack)==0:
     print("True")
